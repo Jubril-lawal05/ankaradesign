@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+    background-image: url('C:/Users/lawal ayomide jubril/Desktop/codeXY/images/img09.jpg'); 
+    background-color: black;
+    color: white;
+    width:90%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.main-header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    padding-top:25px;
+    padding-bottom: 5px;
+}
+h1{
+    border-right: 2px white solid;
+}
+h3{
+    padding-top: 10px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 10px;
+}
+nav ul li{
+    padding-left:20px;
+}
+#sub-header{
+    display: flex;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    flex-wrap: wrap;
+    margin:auto 25px;
+}
+.images img{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    border: 1px black solid;
+}
+.logo{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top:20px;  
+} 
+.logo img{
+    width: 20px;
+    height: 20px;
+    padding-left: 15px;
+}
+@media screen and (max-width:900px){
+    .images{
+      justify-content:center;
+    }
+}
+@media screen and (max-width:600px){
+  
+    body{
+        margin:auto;
+        padding:0;
+        width:100%;
+        
+    }
+    .main-header{
+        margin:0;
+        padding:0;
+        padding-bottom:10px;
+       flex-direction:column;
+    }
+    ul{
+        justify-content: center;
+        font-size:12px;
+    }
+    
+    
+ 
+}
