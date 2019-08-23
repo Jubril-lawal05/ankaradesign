@@ -4,7 +4,7 @@
 }
 body{
     margin: auto;
-    background-image: url('images/img09.jpg') no-repeat fixed fixed center; 
+    background-image: url('/css/images/img09.jpg') no-repeat fixed fixed center; 
     background-size: cover;
     background-color: black;
     color: white;
