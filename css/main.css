@@ -4,8 +4,7 @@
 }
 body{
     margin: auto;
-    background-image: url('../images/img09.jpg') no-repeat fixed fixed center; 
-    background-size: cover;
+    background-image: url('../images/img09.jpg'); 
     background-color: black;
     color: white;
     width:90%;
